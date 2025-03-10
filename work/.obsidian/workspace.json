@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e319b1b71ead8b9",
+        "id": "e67ce538a315cf05",
         "type": "tabs",
         "children": [
           {
-            "id": "8ee053671dfd74ac",
+            "id": "6df9fad20eb39eaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,16 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Jetpack Compose"
-            }
-          },
-          {
-            "id": "61a22cf8780276ba",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
             }
           }
         ]
@@ -63,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ANR",
+                "query": "рефлексии",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 322.5
   },
   "right": {
     "id": "7230e99e215e37dd",
@@ -178,34 +168,36 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "8ee053671dfd74ac",
+  "active": "6df9fad20eb39eaf",
   "lastOpenFiles": [
-    "android/Jetpack Compose.md",
-    "android/img/Pasted image 20250309113235.png",
-    "android/Прочее orm.md",
-    "android/Межпроцессорное взаимодействие (IPC).md",
-    "android/Длительные операции.md",
-    "android/Работа с мультимедиа контентом.md",
-    "android/Диалоги и Toast.md",
-    "android/ВОпиКи.md",
-    "android/Асинхронность.md",
-    "android/ViewModel.md",
-    "android/workmanager.md",
-    "android/view.md",
     "android/Services.md",
-    "android/LiveData.md",
     "android/Intent.md",
-    "android/Context.md",
-    "android/Broadcasts.md",
-    "android/Broadcast Receiver.md",
-    "android/Application класс.md",
-    "android/AndroidManifest.md",
-    "android/android.md",
     "android/Activity и Fragment.md",
-    "android/Сохранение данных.md",
-    "android/прочее.md",
-    "android/Отображение списков контента.md",
+    "android/Broadcast Receiver.md",
+    "android/AndroidManifest.md",
+    "android/ViewModel.md",
+    "мои проекты/Вступление.md",
     "android/Основные компоненты Android.md",
+    "android/Асинхронность.md",
+    "application.md",
+    "kotlin/flow/Flow vs Coroutines.md",
+    "kotlin/flow/Flow.md",
+    "kotlin/flow/Терминальные операторы.md",
+    "kotlin/Корутины/Корутины.md",
+    "kotlin/Корутины/launch VS async.md",
+    "kotlin/Корутины/GlobalScope VS viewModelScope VS lifecycleScope.md",
+    "kotlin/Корутины/withContext.md",
+    "kotlin/Корутины/Dispatchers.md",
+    "kotlin/Корутины/Coroutine Context.md",
+    "kotlin/Корутины/Structured Concurrency.md",
+    "kotlin/язык/Extension функции.md",
+    "kotlin/язык/Inline.md",
+    "kotlin/язык/HashMap VS HashSet.md",
+    "kotlin/язык/data class.md",
+    "kotlin/язык/Исключения.md",
+    "kotlin/язык/== VS ===.md",
+    "мои проекты",
+    "android/img/Pasted image 20250309113235.png",
     "kotlin/img/Pasted image 20250308221358.png",
     "android/img/Pasted image 20250308153019.png",
     "kotlin/img/Pasted image 20250306203942.png",

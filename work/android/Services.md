@@ -137,11 +137,11 @@ startService(intent)
 
 ## **Разница между `Started`, `Bound` и `Foreground` Service**
 
-|Тип `Service`|Как запускается|Когда останавливается|Где используется|
-|---|---|---|---|
-|**Started Service**|`startService(intent)`|`stopSelf()` или `stopService(intent)`|Фоновые задачи (загрузка файлов, API-запросы)|
-|**Bound Service**|`bindService(intent, connection, flags)`|`unbindService(connection)`|Клиент-серверное взаимодействие (музыкальный плеер, Bluetooth)|
-|**Foreground Service**|`startForeground(id, notification)`|Когда приложение явно останавливает его|GPS, музыка, работа с сенсорами|
+| Тип `Service`          | Как запускается                          | Когда останавливается                   | Где используется                                               |
+| ---------------------- | ---------------------------------------- | --------------------------------------- | -------------------------------------------------------------- |
+| **Started Service**    | `startService(intent)`                   | `stopSelf()` или `stopService(intent)`  | Фоновые задачи (загрузка файлов, API-запросы)                  |
+| **Bound Service**      | `bindService(intent, connection, flags)` | `unbindService(connection)`             | Клиент-серверное взаимодействие (музыкальный плеер, Bluetooth) |
+| **Foreground Service** | `startForeground(id, notification)`      | Когда приложение явно останавливает его | GPS, музыка, работа с сенсорами                                |
 #### Что такое `JobScheduler`?
 
 	
